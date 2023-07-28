@@ -4,7 +4,7 @@
 // Purpose: This file is for demonstrating the syntax for a package.
 //####################################################################
 
-package demonstration;
+package demonstration_pkg;
 
   logic someBit;
   logic [1:0] someBitField;
@@ -29,6 +29,6 @@ package demonstration;
 
   } genericUnion_t;
 
-endpackage : demonstration
+endpackage : demonstration_pkg
 
 
