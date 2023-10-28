@@ -4,7 +4,7 @@
 // Purpose: This module is the top level of the test bench heirarchy.
 //####################################################################
 
-`include "../frame-work/inc/frame_work.svh"
+`include "../../frame-work/inc/frame_work.svh"
 import i2c_primitives_pkg::*;
 
 module test_bench_top;
