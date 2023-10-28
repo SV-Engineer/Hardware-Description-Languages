@@ -7,7 +7,7 @@
 
 import primitives_pkg::*;
 
-package testbench_common_pkg
+package testbench_common_pkg;
 
   // This object is intended to provide a way for the test bench to switch between
   // and "automatic" clock and a manually clock controlled by the unit test.

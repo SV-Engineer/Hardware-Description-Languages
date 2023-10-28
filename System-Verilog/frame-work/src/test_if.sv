@@ -7,12 +7,12 @@
 //          the dut.
 //####################################################################
 
-`include "frame_work.svh"
+`include "../inc/frame_work.svh"
 
 interface test_if(input tb_clk);
 
   // Clocking control
-  clk_ctrl_t test_clk = '{default: '0};
+  clk_ctrl_t test_clk;
   logic dut_clk;
 
   // Continuous assignments
