@@ -6,7 +6,7 @@
 //          this should be considered a test bench feature.
 //####################################################################
 
-`include "../../../frame-work/inc/frame_work.svh"
+`include "../../frame-work/inc/frame_work.svh"
 
 module rtl_top
 (

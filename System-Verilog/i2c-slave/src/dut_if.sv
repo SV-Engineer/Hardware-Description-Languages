@@ -7,11 +7,9 @@
 //          the dut.
 //####################################################################
 
-`include "../../../frame-work/inc/frame_work.svh"
-`include "../../inc/i2c_include.svh"
+`include "../../frame-work/inc/frame_work.svh"
+`include "../inc/i2c_include.svh"
 
 interface dut_if(input tb_clk);
-
-  
 
 endinterface : dut_if
