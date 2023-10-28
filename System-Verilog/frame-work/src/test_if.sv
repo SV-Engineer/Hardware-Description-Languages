@@ -17,10 +17,10 @@ interface test_if
   // Reset control
   logic      nReset;
   // Clocking control
-  clk_ctrl_t test_clk;
+  clk_ctrl_t test_clk_ctrl;
   logic      dut_clk;
   // Continuous assignment for clocking mechanism
-  assign dut_clk = test_clk.manual ? (test_clk.clk & ~test_clk.nEnable) : (tb_clk & ~test_clk.nEnable);
+  assign dut_clk = test_clk_ctrl.manual ? (test_clk_ctrl.clk & ~test_clk_ctrl.nEnable) : (tb_clk & ~test_clk_ctrl.nEnable);
   assign tb_clk  = dut_clk;
 
 endinterface : test_if

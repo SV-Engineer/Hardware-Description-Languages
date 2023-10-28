@@ -7,7 +7,5 @@
 
 `ifndef I2C_INCLUDE_SVH_
   `define I2C_INCLUDE_SVH_
-
   import i2c_primitives_pkg::*;
-
 `endif /* I2C_INCLUDE_SVH_ */

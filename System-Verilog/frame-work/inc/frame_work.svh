@@ -7,8 +7,7 @@
 
 `ifndef FRAME_WORK_SVH_
   `define FRAME_WORK_SVH_
-
+  // Imports
   import primitives_pkg::*;
-  import testbench_common_pkg::*;
-
+  import test_bench_common_pkg::*;
 `endif /* FRAME_WORK_SVH_ */

@@ -17,40 +17,40 @@ package primitives_pkg;
     // ------------------------
     // START - Unsigned Types
     // ------------------------
-      // Note that ulogic1_t would be redundant as the purpose of these primitives
-      // is to avoid having to type the '[' & ']' characters everytime a variable is declared.
-      typedef        logic [ 1:0] ulogic2_t;
-      typedef        logic [ 2:0] ulogic3_t;
-      typedef        logic [ 3:0] ulogic4_t;
-      typedef        logic [ 4:0] ulogic5_t;
-      typedef        logic [ 5:0] ulogic6_t;
-      typedef        logic [ 6:0] ulogic7_t;
-      typedef        logic [ 7:0] ulogic8_t;
-      typedef        logic [ 8:0] ulogic9_t;
-      typedef        logic [ 9:0] ulogic10_t;
-      typedef        logic [10:0] ulogic11_t;
-      typedef        logic [11:0] ulogic12_t;
-      typedef        logic [12:0] ulogic13_t;
-      typedef        logic [13:0] ulogic14_t;
-      typedef        logic [14:0] ulogic15_t;
-      typedef        logic [15:0] ulogic16_t;
-      typedef        logic [16:0] ulogic17_t;
-      typedef        logic [17:0] ulogic18_t;
-      typedef        logic [18:0] ulogic19_t;
-      typedef        logic [19:0] ulogic20_t;
-      typedef        logic [20:0] ulogic21_t;
-      typedef        logic [21:0] ulogic22_t;
-      typedef        logic [22:0] ulogic23_t;
-      typedef        logic [23:0] ulogic24_t;
-      typedef        logic [24:0] ulogic25_t;
-      typedef        logic [25:0] ulogic26_t;
-      typedef        logic [26:0] ulogic27_t;
-      typedef        logic [27:0] ulogic28_t;
-      typedef        logic [28:0] ulogic29_t;
-      typedef        logic [29:0] ulogic30_t;
-      typedef        logic [30:0] ulogic31_t;
-      typedef        logic [31:0] ulogic32_t;
-      typedef        logic [63:0] ulogic64_t;
+    // Note that ulogic1_t would be redundant as the purpose of these primitives
+    // is to avoid having to type the '[' & ']' characters everytime a variable is declared.
+    typedef        logic [ 1:0] ulogic2_t;
+    typedef        logic [ 2:0] ulogic3_t;
+    typedef        logic [ 3:0] ulogic4_t;
+    typedef        logic [ 4:0] ulogic5_t;
+    typedef        logic [ 5:0] ulogic6_t;
+    typedef        logic [ 6:0] ulogic7_t;
+    typedef        logic [ 7:0] ulogic8_t;
+    typedef        logic [ 8:0] ulogic9_t;
+    typedef        logic [ 9:0] ulogic10_t;
+    typedef        logic [10:0] ulogic11_t;
+    typedef        logic [11:0] ulogic12_t;
+    typedef        logic [12:0] ulogic13_t;
+    typedef        logic [13:0] ulogic14_t;
+    typedef        logic [14:0] ulogic15_t;
+    typedef        logic [15:0] ulogic16_t;
+    typedef        logic [16:0] ulogic17_t;
+    typedef        logic [17:0] ulogic18_t;
+    typedef        logic [18:0] ulogic19_t;
+    typedef        logic [19:0] ulogic20_t;
+    typedef        logic [20:0] ulogic21_t;
+    typedef        logic [21:0] ulogic22_t;
+    typedef        logic [22:0] ulogic23_t;
+    typedef        logic [23:0] ulogic24_t;
+    typedef        logic [24:0] ulogic25_t;
+    typedef        logic [25:0] ulogic26_t;
+    typedef        logic [26:0] ulogic27_t;
+    typedef        logic [27:0] ulogic28_t;
+    typedef        logic [28:0] ulogic29_t;
+    typedef        logic [29:0] ulogic30_t;
+    typedef        logic [30:0] ulogic31_t;
+    typedef        logic [31:0] ulogic32_t;
+    typedef        logic [63:0] ulogic64_t;
     // ------------------------
     // END - Unsigned Types
     // ------------------------
@@ -58,49 +58,58 @@ package primitives_pkg;
     // ------------------------
     // START - Signed types
     // ------------------------
-      typedef logic signed [ 1:0] slogic2_t;
-      typedef logic signed [ 2:0] slogic3_t;
-      typedef logic signed [ 3:0] slogic4_t;
-      typedef logic signed [ 4:0] slogic5_t;
-      typedef logic signed [ 5:0] slogic6_t;
-      typedef logic signed [ 6:0] slogic7_t;
-      typedef logic signed [ 7:0] slogic8_t;
-      typedef logic signed [ 8:0] slogic9_t;
-      typedef logic signed [ 9:0] slogic10_t;
-      typedef logic signed [10:0] slogic11_t;
-      typedef logic signed [11:0] slogic12_t;
-      typedef logic signed [12:0] slogic13_t;
-      typedef logic signed [13:0] slogic14_t;
-      typedef logic signed [14:0] slogic15_t;
-      typedef logic signed [15:0] slogic16_t;
-      typedef logic signed [16:0] slogic17_t;
-      typedef logic signed [17:0] slogic18_t;
-      typedef logic signed [18:0] slogic19_t;
-      typedef logic signed [19:0] slogic20_t;
-      typedef logic signed [20:0] slogic21_t;
-      typedef logic signed [21:0] slogic22_t;
-      typedef logic signed [22:0] slogic23_t;
-      typedef logic signed [23:0] slogic24_t;
-      typedef logic signed [24:0] slogic25_t;
-      typedef logic signed [25:0] slogic26_t;
-      typedef logic signed [26:0] slogic27_t;
-      typedef logic signed [27:0] slogic28_t;
-      typedef logic signed [28:0] slogic29_t;
-      typedef logic signed [29:0] slogic30_t;
-      typedef logic signed [30:0] slogic31_t;
-      typedef logic signed [31:0] slogic32_t;
-      typedef logic signed [63:0] slogic64_t;
+    typedef logic signed [ 1:0] slogic2_t;
+    typedef logic signed [ 2:0] slogic3_t;
+    typedef logic signed [ 3:0] slogic4_t;
+    typedef logic signed [ 4:0] slogic5_t;
+    typedef logic signed [ 5:0] slogic6_t;
+    typedef logic signed [ 6:0] slogic7_t;
+    typedef logic signed [ 7:0] slogic8_t;
+    typedef logic signed [ 8:0] slogic9_t;
+    typedef logic signed [ 9:0] slogic10_t;
+    typedef logic signed [10:0] slogic11_t;
+    typedef logic signed [11:0] slogic12_t;
+    typedef logic signed [12:0] slogic13_t;
+    typedef logic signed [13:0] slogic14_t;
+    typedef logic signed [14:0] slogic15_t;
+    typedef logic signed [15:0] slogic16_t;
+    typedef logic signed [16:0] slogic17_t;
+    typedef logic signed [17:0] slogic18_t;
+    typedef logic signed [18:0] slogic19_t;
+    typedef logic signed [19:0] slogic20_t;
+    typedef logic signed [20:0] slogic21_t;
+    typedef logic signed [21:0] slogic22_t;
+    typedef logic signed [22:0] slogic23_t;
+    typedef logic signed [23:0] slogic24_t;
+    typedef logic signed [24:0] slogic25_t;
+    typedef logic signed [25:0] slogic26_t;
+    typedef logic signed [26:0] slogic27_t;
+    typedef logic signed [27:0] slogic28_t;
+    typedef logic signed [28:0] slogic29_t;
+    typedef logic signed [29:0] slogic30_t;
+    typedef logic signed [30:0] slogic31_t;
+    typedef logic signed [31:0] slogic32_t;
+    typedef logic signed [63:0] slogic64_t;
     // ------------------------
     // END - Signed types
-    // ------------------------
+    // -----------------------
+  // ========================
+  // END - Type definitions
+  // ========================
 
   // ========================
   // START - Constants
   // ========================
+  // Boolean Expressions
   const logic FALSE  = 1'b0;
   const logic TRUE   = 1'b1;
   const logic nFALSE = ~FALSE;
   const logic nTRUE  = ~TRUE;
+
+  // Frequencies
+  const string MEGA_HERTZ = "MHz";
+  const string KILO_HERTZ = "kHz";
+  const string HERTZ      = "Hz";
   // ========================
   // END - Constants
   // ========================
