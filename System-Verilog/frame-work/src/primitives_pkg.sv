@@ -103,4 +103,15 @@ package primitives_pkg;
     // END - Signed types
     // ------------------------
 
+  // ========================
+  // START - Constants
+  // ========================
+  const logic FALSE  = 1'b0;
+  const logic TRUE   = 1'b1;
+  const logic nFALSE = ~FALSE;
+  const logic nTRUE  = ~TRUE;
+  // ========================
+  // END - Constants
+  // ========================
+
 endpackage : primitives_pkg

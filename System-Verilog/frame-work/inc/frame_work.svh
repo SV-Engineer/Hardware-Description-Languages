@@ -9,5 +9,6 @@
   `define FRAME_WORK_SVH_
 
   import primitives_pkg::*;
+  import testbench_common_pkg::*;
 
 `endif /* FRAME_WORK_SVH_ */
