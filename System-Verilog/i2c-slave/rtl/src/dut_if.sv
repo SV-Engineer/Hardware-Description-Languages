@@ -7,20 +7,11 @@
 //          the dut.
 //####################################################################
 
-`include "../inc/frame_work.svh"
+`include "../../../frame-work/inc/frame_work.svh"
+`include "../../inc/i2c_include.svh"
 
-interface test_if
-(
-  output tb_clk
-);
+interface dut_if(input tb_clk);
 
-  // Reset control
-  logic      nReset;
-  // Clocking control
-  clk_ctrl_t test_clk;
-  logic      dut_clk;
-  // Continuous assignment for clocking mechanism
-  assign dut_clk = test_clk.manual ? (test_clk.clk & ~test_clk.nEnable) : (tb_clk & ~test_clk.nEnable);
-  assign tb_clk  = dut_clk;
+  
 
-endinterface : test_if
+endinterface : dut_if

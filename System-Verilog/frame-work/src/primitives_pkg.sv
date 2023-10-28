@@ -10,15 +10,6 @@
 //          important habit people tend to overlook.
 //####################################################################
 
-  // Section comment template
-  // ========================
-  // START - 
-  // ========================
-
-  // ========================
-  // END - 
-  // ========================
-
 package primitives_pkg;
   // ========================
   // START - Type definitions
