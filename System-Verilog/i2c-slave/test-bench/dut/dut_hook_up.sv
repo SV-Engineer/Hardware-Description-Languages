@@ -5,7 +5,7 @@
 //          the test interface to the dut in a meaningful way.
 //####################################################################
 
-`include "../../frame-work/inc/frame_work.svh"
+`include "../../../frame-work/inc/frame_work.svh"
 
 module dut_hook_up(test_if tif, dut_if dif);
 

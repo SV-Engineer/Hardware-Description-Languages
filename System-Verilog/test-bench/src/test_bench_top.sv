@@ -5,7 +5,6 @@
 //####################################################################
 
 `include "../../frame-work/inc/frame_work.svh"
-import i2c_primitives_pkg::*;
 
 module test_bench_top;
 

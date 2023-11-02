@@ -16,10 +16,4 @@
 
 package i2c_primitives_pkg;
 
-  typedef struct
-  {
-    logic scl;
-    logic sda;
-  } i2c_port_t;
-
 endpackage : i2c_primitives_pkg

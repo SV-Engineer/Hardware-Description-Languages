@@ -12,4 +12,7 @@
 
 interface dut_if(input tb_clk);
 
+  logic sda;
+  logic scl;
+
 endinterface : dut_if
