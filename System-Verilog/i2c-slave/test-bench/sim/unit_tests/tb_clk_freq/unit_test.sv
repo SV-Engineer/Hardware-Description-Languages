@@ -1,15 +1,17 @@
 import primitives_pkg::*;
 import test_bench_common_pkg::*;
 
-program automatic unit_test (input tif, input dif);
+module unit_test (test_if tif, dut_if dif);
 
   initial
     begin : main
     $display("Unit test start");
 
-    #10us;
+    //#1ns;
 
     $display("Unit test end");
+
+    $finish;
     end : main
 
-endprogram : unit_test
+endmodule : unit_test

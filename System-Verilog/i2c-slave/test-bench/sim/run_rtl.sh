@@ -9,4 +9,4 @@ vlog -f test_bench.f
 
 # Then run the sim.
 # -c runs it on the command line.
-vsim work.test_bench_top -c -lib i2c-slave-lib -do run;exit
+vsim work.test_bench_top -c -lib i2c-slave-lib -do run

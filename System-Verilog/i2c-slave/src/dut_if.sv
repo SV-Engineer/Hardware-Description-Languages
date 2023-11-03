@@ -10,9 +10,9 @@
 `include "../../frame-work/inc/frame_work.svh"
 `include "../inc/i2c_include.svh"
 
-interface dut_if(input tb_clk);
+interface dut_if;
 
-  logic sda;
-  logic scl;
+  wire sda;
+  wire scl;
 
 endinterface : dut_if
