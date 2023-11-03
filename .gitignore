@@ -1,3 +1,4 @@
 System-Verilog/i2c-slave/test-bench/sim/i2c-slave-lib/
 System-Verilog/i2c-slave/test-bench/sim/i2c_slave-lib/*
 System-Verilog/i2c-slave/test-bench/sim/modelsim.ini
+System-Verilog/i2c-slave/test-bench/sim/transcript

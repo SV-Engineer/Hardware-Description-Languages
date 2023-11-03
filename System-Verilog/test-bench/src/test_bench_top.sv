@@ -25,4 +25,6 @@ module test_bench_top;
     .dut_if(dif)
   );
 
+  unit_test ut (tif, dif);
+
 endmodule : test_bench_top
