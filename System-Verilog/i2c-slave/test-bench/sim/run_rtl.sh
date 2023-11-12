@@ -5,8 +5,11 @@
 # paths and will not work if run else-where.
 
 # First compile the code.
-vlog -f test_bench.f
+vlog  -f test_bench.f \
+      +incdir+"../../inc/" \
+      +incdir+"../../../frame-work/inc/" \
+      +incdir+"../../../test-bench/inc/"
 
 # Then run the sim.
 # -c runs it on the command line.
-vsim work.test_bench_top -c -lib i2c-slave-lib -do run
+vsim work.test_bench_top -c -lib i2c-slave-lib -do run -do exit
